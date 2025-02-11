@@ -1,0 +1,17 @@
+GET http://localhost:3000/api/todos/
+
+###
+
+
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+    "todo_name" : "Learn React"
+}
+
+###
+
+DELETE https://localhost:3000/api/todos/2
+
+
